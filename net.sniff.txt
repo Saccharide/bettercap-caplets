@@ -1,0 +1,4 @@
+set net.sniff.verbose true
+set net.sniff.local true
+net.sniff.on
+

